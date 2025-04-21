@@ -1,0 +1,45 @@
+.section {
+  background-color: #1c1c1c;
+  color: #f5f2eb;
+  padding: 40px 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.section a {
+  color: #ffd27f;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.setion a:hover {
+  color: #d3a547;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.link {
+  display: inline-block;
+  margin: 0 10px;
+  color: #ffd27f;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #d3a547;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
