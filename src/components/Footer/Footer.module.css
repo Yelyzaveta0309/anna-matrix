@@ -13,9 +13,9 @@
   transition: color 0.3s ease;
 }
 
-.setion a:hover {
+/* .setion a:hover {
   color: #d3a547;
-}
+} */
 
 .wrapper {
   max-width: 700px;
