@@ -31,23 +31,26 @@ function PriceSection() {
   }, []);
 
   return (
-    <section className={styles.section}>
+    <section className="section">
     <div className={styles.wrapper}>
       <h2 className={styles.title}>Стоимость консультации</h2>
   
       <div className={styles.priceWrapper}>
         <p className={styles.name}>Полная консультация</p>
-        <p className={styles.new}>999 грн <span className={styles.old}>2500 грн</span></p>
+        <p className={styles.new}>1500 лир <span className={styles.old}>2500 лир</span></p>
+        <p className={styles.new}>1500 грн <span className={styles.old}>2500 грн</span></p>
       </div>
   
       <div className={styles.priceWrapper}>
         <p className={styles.name}>Разбор одной сферы жизни</p>
-        <p className={styles.new}>500 грн <span className={styles.old}>1500 грн</span></p>
+        <p className={styles.new}>800 лир <span className={styles.old}>1200 лир</span></p>
+        <p className={styles.new}>800 грн <span className={styles.old}>1200 грн</span></p>
       </div>
 
       <div className={styles.priceWrapper}>
         <p className={styles.name}>Прогноз на год по всем сферам жизни</p>
-        <p className={styles.new}>799 грн <span className={styles.old}>1500 грн</span></p>
+        <p className={styles.new}>900 лир <span className={styles.old}>1500 лир</span></p>
+        <p className={styles.new}>900 грн <span className={styles.old}>1500 грн</span></p>
       </div>
   
       <div className={styles.timerWrapper}>
@@ -58,7 +61,7 @@ function PriceSection() {
           <span>{String(timeLeft.seconds).padStart(2, '0')}</span>
         </div>
       </div>
-        <button className={styles.button}>Получить консультацию</button>
+        <button className={styles.button}  onClick={() => window.open('https://wa.me/905397207652', '_blank')}>Заказать консультацию</button>
       
 
     <p className={styles.bonus}>

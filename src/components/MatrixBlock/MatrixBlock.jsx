@@ -4,7 +4,7 @@ import matrixExampleImg from '../../assets/mt.jpg';
 function MatrixBlock() {
   return (
 
-  <section className={styles.section}>
+  <section className="section">
     <div className={styles.wrapper}>
       <h2 className={styles.title}>Матрица Судьбы</h2>
       <p className={styles.subtitle}>персональный ключ к твоей жизни</p>

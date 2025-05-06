@@ -3,5 +3,23 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #1c1c1c;
     color: #cccccc;
-  }
-  
+}
+
+.section {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: #f5f2eb;
+  background-color: #1c1c1c;
+}
+
+.section a {
+  color: #ffd27f;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.section a:hover {
+  color: #d3a547;
+}

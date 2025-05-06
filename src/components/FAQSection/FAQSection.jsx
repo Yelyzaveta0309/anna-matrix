@@ -24,19 +24,9 @@ const questions = [
           'Все сферы. Матрица Судьбы – это персональная инструкция. Ключик, открывающий вам дверь к пониманию себя.',
       },
       {
-        question: 'Насколько подробен этот разбор?',
-        answer:
-          'Нумеролог производит разбор индивидуально под каждого клиента. Это не шаблонная информация из Интернета. Дарья училась у основательницы метода и дает неискаженную и рабочую информацию клиентам.',
-      },
-      {
-        question: 'Можно ли получить запрос?',
-        answer:
-          'Да, конечно, после консультации нумеролог пришлет вам полную запись.',
-      },
-      {
         question: 'Могу ли я задать вопрос?',
         answer:
-          'Да, напишите нам в телеграмме.',
+          'Да, напишите на What`s App +905397207652 .',
       }
    
   ];
@@ -50,7 +40,7 @@ function FAQSection() {
   };
 
   return (
-    <section className={styles.section}>
+    <section className="section">
       <div className={styles.wrapper}>
         <h2 className={styles.title}>Часто задаваемые вопросы</h2>
 
@@ -63,7 +53,7 @@ function FAQSection() {
               {q.question}
             </button>
             <div className={`${styles.answer} ${openIndex === index ? styles.open : ''}`}>
-              {q.answer}
+              {q.answer} 
             </div>
           </div>
         ))}

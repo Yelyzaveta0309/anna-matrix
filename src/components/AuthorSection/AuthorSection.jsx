@@ -3,7 +3,7 @@ import authorImg from '../../assets/author.jpg';
 
 function AuthorSection() {
   return (
-    <section className={styles.section}>
+    <section className="section">
       <div className={styles.wrapper}>
         <img src={authorImg} alt="Автор" className={styles.image} />
         <div className={styles.textBlock}>

@@ -30,7 +30,7 @@ const zones = [
 
 function ZonesSection() {
   return (
-    <section className={styles.section}>
+    <section className="section">
       <div className={styles.wrapper}>
         <h2 className={styles.title}>
         На консультации мы разберем 7 сфер жизни

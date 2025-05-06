@@ -4,7 +4,7 @@ import matrixImg from '../../assets/matrix.jpg';
 
 function ConsultationBlock() {
   return (
-    <section className={styles.section}>
+    <section className="section">
       <div className={styles.wrapper}>
       <img src={matrixImg} alt="Матрица Судьбы" className={styles.image} />
       <h1 className={styles.title}>
@@ -14,7 +14,7 @@ function ConsultationBlock() {
       <p className={styles.text}>
         Получите руководство к своей жизни. Узнайте как раскрыть потенциал, проработать кармические задачи, и достигать гармонии в жизни, любви и карьере.
       </p>
-      <button className={styles.button}>Получить консультацию</button>
+      <button className={styles.button}  onClick={() => window.open('https://wa.me/905397207652', '_blank')}>Заказать консультацию</button>
       </div>
      
     </section>

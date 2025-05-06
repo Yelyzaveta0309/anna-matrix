@@ -36,7 +36,7 @@ const helpItems = [
 
 function ConsultHelp() {
   return (
-    <section className={styles.section}>
+    <section className="section">
       <div className={styles.wrapper}>
         <h2 className={styles.title}>Кому поможет консультация?</h2>
         <ul className={styles.list}>

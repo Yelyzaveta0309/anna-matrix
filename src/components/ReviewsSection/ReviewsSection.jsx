@@ -30,7 +30,7 @@ function ReviewsSection(){
 
  
   return (
-    <section className={styles.section}>
+    <section className="section">
       <div className= {styles.container}>
         <h2 className={styles.title}>Отзывы клиентов</h2>
 
@@ -49,16 +49,6 @@ function ReviewsSection(){
               </div>
             ))}
           </div>
-        </div>
-
-
-
-
-        <div className={styles.questionWrapper}>
-          <p className={styles.questionText}>
-              Если у вас остались вопросы по консультации или оплате, по кнопке ниже вы можете написать нам и нумеролог вас подробно проконсультирует.
-          </p>
-          <a href="#form" className={styles.questionButton}>Задать нумерологу</a>
         </div>
       </div>
     </section>
